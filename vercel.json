@@ -1,6 +1,13 @@
 {
   "version": 2,
   "cleanUrls": true,
+  "rewrites": [
+    { "source": "/politicas", "destination": "/politicas.html" },
+    { "source": "/refund-policy", "destination": "/politicas.html" },
+    { "source": "/darse-de-baja-play-store", "destination": "/politicas.html" },
+    { "source": "/darse-de-baja", "destination": "/politicas.html" },
+    { "source": "/politica-de-privacidad-y-otras", "destination": "/politicas.html" }
+  ],
   "headers": [
     {
       "source": "/(.*)",
