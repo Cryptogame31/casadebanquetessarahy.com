@@ -1,24 +1,27 @@
 # Casa de Banquetes Sarahy — Rediseño Web Élite ($1,000,000 Experience)
 
-> **Sitio Web Oficial:** [`https://www.casadebanquetessarahy.com/`](https://www.casadebanquetessarahy.com/)  
+> **Sitio Web Oficial (Dominio Destino):** [`https://www.casadebanquetessarahy.com/`](https://www.casadebanquetessarahy.com/)  
+> **Despliegue de Producción en Vercel:** [`https://casadebanquetessarahy.vercel.app/`](https://casadebanquetessarahy.vercel.app/)  
 > **Cotizador en Línea 24/7:** [`https://app.casadebanquetessarahy.com/`](https://app.casadebanquetessarahy.com/)  
-> **Ecosistema:** EXPÁNDETE OS — 01 Banquetes Sarahy  
-> **Normativa Técnica:** `ET-SEO-001` (Estándar Global Expándete: SEO + GEO + AEO + AI Search Optimization) & `ET-DEV-002`  
-> **Cuenta Oficial GitHub:** `https://github.com/Cryptogame31/`
+> **Repositorio Oficial GitHub:** [`https://github.com/Cryptogame31/casadebanquetessarahy.com`](https://github.com/Cryptogame31/casadebanquetessarahy.com)  
+> **ID Proyecto Vercel:** `prj_jhC35i9a3d1lSjOWz85eLLlAUmhR` (Equipo: `crececonexpandete31` / `team_gtxNNXDbRePZrvIoRJ0ULsmp`)  
+> **Ecosistema:** EXPÁNDETE OS — `01 — BANQUETES SARAHY` (Ficha Maestra: `BS-WEB-001`)  
+> **Normativa Técnica:** `ET-SEO-001` (Estándar Global Expándete: SEO + GEO + AEO + AI Search Optimization)
 
 ---
 
 ## 1. Visión y Propósito del Rediseño
 
-Este repositorio contiene la reconstrucción integral de la presencia web pública de **Casa de Banquetes Sarahy**.
+Este repositorio contiene la reconstrucción integral de la presencia web pública de **Casa de Banquetes Sarahy** en Medellín y el Área Metropolitana.
 
 ### 🌟 Problemas Resueltos del Sitio Anterior (Hostinger / Zyro AI Builder):
-1. **Precios Desactualizados Eliminados:** La web anterior contenía decenas de subpáginas con tarifas estáticas obsoletas. Este rediseño integra una **transparencia de precios total** mediante un **Simulador Interactivo Dopamínico** conectado directamente al **Cotizador Oficial en Tiempo Real (`https://app.casadebanquetessarahy.com/`)**, garantizando propuestas al centavo con disponibilidad de salones verificada.
-2. **Escaneo y Reorganización de 123 Rutas:** Se escanearon y normalizaron todas las subpáginas originales de Hostinger, consolidando un catálogo interactivo con buscador omnibar de **118 servicios y menaje**, con fotografía real de alta resolución.
-3. **Estética de Alta Gama ($1,000,000 Dopamina Visual):**
-   - Paleta de color *Obsidian Slate* (`#07090E`), *Royal Champagne Gold* (`#D4AF37`) y acentos de brillo.
-   - Tipografía aristocrática con `Cinzel` y `Playfair Display` combinada con la legibilidad moderna de `Plus Jakarta Sans`.
-   - Micro-interacciones: tarjetas con glassmorphism, resplandores en gradiente, slider interactivo de invitados con animación, efectos de confeti celebratory (`canvas-confetti`) y concierge flotante.
+1. **Precios Desactualizados Eliminados:** La web anterior contenía decenas de subpáginas con tarifas estáticas obsoletas. Este rediseño integra una **transparencia de precios total** mediante un **Simulador Interactivo Dopamínico** conectado directamente al **Cotizador Oficial en Tiempo Real (`https://app.casadebanquetessarahy.com/`)**, garantizando propuestas actualizadas al centavo con disponibilidad de salones verificada.
+2. **Escaneo y Reorganización de 123 URLs:** Se escanearon las rutas del `sitemap.xml` original de Hostinger y se normalizaron **118 servicios, sedes y paquetes oficiales** en una base de datos estructurada (`data/services.json`), con buscador omnibar en tiempo real y fotografía real de alta resolución.
+3. **Consolidación Legal y Cumplimiento Google Play Store:** Las 4 rutas legales del sitio anterior (`/refund-policy`, `/darse-de-baja-play-store`, `/darse-de-baja` y `/politica-de-privacidad-y-otras`) quedaron unificadas en [`politicas.html`](./politicas.html) con enlaces discretos ubicados **únicamente en el footer inferior** de todas las páginas y reescrituras limpias en [`vercel.json`](./vercel.json).
+4. **Estética de Alta Gama ($1,000,000 Experience):**
+   - Paleta *Obsidian Slate* (`#07090E`) y *Royal Champagne Gold* (`#D4AF37`).
+   - Tipografía `Cinzel` y `Playfair Display` combinada con `Plus Jakarta Sans`.
+   - Micro-interacciones: tarjetas con glassmorphism, slider interactivo de invitados, animaciones con `canvas-confetti` y botones directos al Cotizador y WhatsApp Concierge.
 
 ---
 
@@ -26,62 +29,77 @@ Este repositorio contiene la reconstrucción integral de la presencia web públi
 
 ```
 05 — LANDING OFICIAL CASADEBANQUETESSARAHY.COM/
-├── index.html                  # Experiencia Principal SPA + Simulador + Catálogo 118 servicios
-├── bodas.html                  # Landing especializada en Bodas de Ensueño
-├── quinces.html                # Landing especializada en Quinceañeras Élite
-├── salones.html                # Directorio exhaustivo de Sedes Coloniales y Fincas Campestres
-├── servicios.html              # Catálogo de Menús 3 Tiempos, Menaje y Efectos Especiales
-├── robots.txt                  # Directivas de acceso para Googlebot, Bingbot, OAI-SearchBot y PerplexityBot
-├── sitemap.xml                 # Mapa del sitio canónico
-├── llms.txt                    # Resumen denso para motores de búsqueda de Inteligencia Artificial
-├── vercel.json                 # Configuración de cabeceras, compresión y caché estático
-├── .gitignore                  # Exclusión de temporales
+├── index.html                          # Experiencia Principal + Simulador + Catálogo 118 servicios
+├── bodas.html                          # Landing especializada en Bodas de Ensueño
+├── quinces.html                        # Landing especializada en Quinceañeras Élite
+├── salones.html                        # Directorio de Sedes Coloniales y Fincas Campestres
+├── servicios.html                      # Catálogo de Menús 3 Tiempos, Menaje y Efectos Especiales
+├── politicas.html                      # Políticas unificadas (Reembolsos, Fotografía, Privacidad, Baja y Play Store)
 ├── data/
-│   └── services.json           # Base de datos limpia de las 118 subpáginas y servicios escaneados
-└── README.md                   # Documentación técnica completa
+│   └── services.json                   # Base de datos normalizada de 118 servicios escaneados
+├── robots.txt                          # Acceso permitido para Googlebot, Bingbot, Applebot, OAI-SearchBot, PerplexityBot y Claude-Web
+├── sitemap.xml                         # Mapa del sitio canónico (6 URLs principales)
+├── llms.txt                            # Resumen estructurado para motores generativos de IA
+├── vercel.json                         # URLs limpias (cleanUrls), rewrites legales hacia /politicas, headers de seguridad y caché
+├── .gitignore                          # Exclusión de temporales y .vercel/
+├── ABRIR_LANDING_REDISEÑO_SARAHY.bat   # Lanzador rápido local en Windows
+└── README.md                           # Documentación técnica del repositorio
 ```
 
 ---
 
 ## 3. Integración con el Cotizador Oficial en Tiempo Real
 
-El botón de acción principal de toda la plataforma está conectado al SaaS de producción:
-- **URL Cotizador Oficial:** `https://app.casadebanquetessarahy.com/`
-- Permite a los novios, quinceañeras y empresas:
-  - Seleccionar salón disponible en el calendario gremial.
+El llamado a la acción principal en toda la web está conectado al SaaS de producción:
+- **URL Cotizador Oficial:** [`https://app.casadebanquetessarahy.com/`](https://app.casadebanquetessarahy.com/)
+- Permite a los clientes:
+  - Seleccionar salón disponible según la fecha deseada.
   - Escalar el banquete para el número exacto de invitados.
-  - Agregar servicios opcionales (pistas LED, pólvora fría, recreación, fotografía profesional).
-  - Descargar de inmediato su propuesta formal en PDF corporativo (Slate/Gold) y disparar el webhook hacia **n8n** para seguimiento por WhatsApp.
+  - Agregar servicios opcionales (pistas LED, pólvora fría, recreación, fotografía profesional, etc.).
+  - Descargar su propuesta formal en PDF corporativo y activar el seguimiento comercial vía **n8n**.
 
 ---
 
 ## 4. Agendamiento de Visitas en Prado Colonial (`BS-AGE-001` / `BS-AGE-002`)
 
-El sitio web incorpora un módulo de reserva de visitas presenciales con las siguientes reglas aprobadas por la dirección:
+El sitio incluye módulo de solicitud de visitas presenciales regido por las políticas operativas vigentes:
 - **Sede de encuentro inicial:** Prado Colonial (Medellín).
-- **Horario:** Lunes a Sábado de 11:00 a. m. a 6:00 p. m. (14 bloques de 30 minutos).
-- **Aforo:** Máximo 3 familias simultáneas por bloque.
-- **Canal de confirmación:** WhatsApp oficial (`+57 316 304 8505` / `+57 319 718 8973`).
+- **Horario:** Lunes a Sábado de 11:00 a. m. a 6:00 p. m. (bloques de 30 minutos).
+- **Aforo:** Máximo 3 familias simultáneas por bloque horario.
+- **Confirmación:** WhatsApp oficial (`+57 316 304 8505` / `+57 319 718 8973`).
 
 ---
 
-## 5. Cumplimiento Normativo `ET-SEO-001`
+## 5. Políticas Legales Unificadas (`politicas.html`) y Rewrites en Vercel
 
-- **Schema.org JSON-LD:** Marcado semántico completo como `CateringService`, `EventVenue`, `Organization`, `WebSite`, `WebPage` y `FAQPage`.
-- **AEO (Answer Engine Optimization):** Respuestas directas a las preguntas frecuentes clave sobre precios dinámicos, visitas en Prado Colonial y entrega fotográfica a 10 días hábiles (`BS-OPE-001`).
-- **GEO (Generative Engine Optimization):** Indexación optimizada para ChatGPT Search, Perplexity, Copilot y Google AI Overviews a través de `llms.txt` y metadatos verificados.
-- **Rendimiento:** Cero dependencias pesadas que bloqueen el renderizado; carga ultrarrápida con CDN global y Tailwind CSS.
+Todas las páginas (`index.html`, `bodas.html`, `quinces.html`, `salones.html` y `servicios.html`) enlazan discretamente en su `<footer>` hacia las 4 secciones con ancla de `politicas.html`:
+1. **`#reembolsos`:** Reprogramación sin multa con mínimo 15 días calendario de anticipación, escala oficial de penalidades de cancelación (`$100.000` a `$1.700.000 COP`), anticipos de reserva no reembolsables y contacto de Gerencia (`316 304 8505`).
+2. **`#fotografia`:** Entrega digital en `10 días hábiles` (`BS-OPE-001`), trabajos físicos hasta en `45 días hábiles` tras entrega de selección, plazo máximo de `40 días calendario` para reclamar tras notificación y garantía de `60 días calendario`.
+3. **`#privacidad`:** Política de Privacidad, tratamiento de datos personales y derechos de Habeas Data.
+4. **`#darse-de-baja`:** Solicitud directa de baja / eliminación de datos (formulario conectado a WhatsApp oficial) + bloque oficial en inglés **`Account Deletion Policy`** exigido por **Google Play Console**.
+
+Gracias a `"cleanUrls": true` y `rewrites` en [`vercel.json`](./vercel.json), las siguientes rutas históricas responden `200 OK` sirviendo `/politicas`:
+- `/refund-policy` → `/politicas`
+- `/darse-de-baja-play-store` → `/politicas`
+- `/darse-de-baja` → `/politicas`
+- `/politica-de-privacidad-y-otras` → `/politicas`
 
 ---
 
-## 6. Instrucciones de Despliegue
+## 6. Cumplimiento Normativo `ET-SEO-001`
 
-### Opción A — Despliegue en GitHub Pages:
-1. Subir a la rama `main` del repositorio `https://github.com/Cryptogame31/casadebanquetessarahy.com`.
-2. En Settings $\rightarrow$ Pages, seleccionar la rama `main` y raíz `/`.
+- **Schema.org JSON-LD:** Marcado semántico válido con `@graph` (`CateringService` + `EventVenue`, y `FAQPage`).
+- **AEO (Answer Engine Optimization):** Respuestas directas a preguntas frecuentes comerciales sobre precios dinámicos, visitas en Prado Colonial y entrega fotográfica a 10 días hábiles.
+- **GEO (Generative Engine Optimization):** Archivo `llms.txt` y habilitación explícita de `OAI-SearchBot`, `PerplexityBot` y `Claude-Web` en `robots.txt`.
+- **Seguridad HTTP (`vercel.json`):** `X-Content-Type-Options: nosniff`, `X-Frame-Options: DENY`, `X-XSS-Protection: 1; mode=block` y caché inmutable de 1 año para activos gráficos.
 
-### Opción B — Despliegue en Vercel / Netlify:
-1. Importar el repositorio directamente. El archivo `vercel.json` autoconfigurará las cabeceras de seguridad y URLs limpias.
+---
 
-### Opción C — Subida a Hostinger:
-1. Comprimir el contenido de esta carpeta y subirlo a la carpeta `public_html` del administrador de archivos de Hostinger.
+## 7. Despliegue y Cambio de Dominio en Vercel
+
+- **Rama conectada en GitHub:** `main` (`Cryptogame31/casadebanquetessarahy.com`).
+- **URL de pruebas/producción actual:** [`https://casadebanquetessarahy.vercel.app/`](https://casadebanquetessarahy.vercel.app/).
+- **Para conectar el dominio `casadebanquetessarahy.com` cuando se autorice:**
+  1. En Vercel (**Project Settings → Domains**), agregar `casadebanquetessarahy.com` y `www.casadebanquetessarahy.com`.
+  2. En el panel DNS de Hostinger, apuntar únicamente el registro `A` de `@` hacia `76.76.21.21` y el `CNAME` de `www` hacia `cname.vercel-dns.com`.
+  3. **No modificar** el subdominio **`app`** (`app.casadebanquetessarahy.com`), que apunta al cotizador y sistema v16 en el VPS.
