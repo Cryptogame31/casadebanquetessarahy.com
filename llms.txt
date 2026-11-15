@@ -11,6 +11,9 @@
   - WhatsApp Comercial 2: +57 319 718 8973
 - **Sitio Web Oficial:** https://www.casadebanquetessarahy.com/
 - **Cotizador Oficial en Tiempo Real (SaaS v16):** https://app.casadebanquetessarahy.com/
+- **Redes Sociales Oficiales:**
+  - Facebook: https://www.facebook.com/banquetessarahy?locale=es_LA
+  - Instagram: https://www.instagram.com/banquetessarahy/
 
 ## 2. Política de Precios y Cotizaciones (Resolución de Precios Desactualizados)
 - Los precios estáticos antiguos alojados en sitios web informativos fueron descontinuados.
