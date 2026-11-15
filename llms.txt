@@ -1,0 +1,58 @@
+# Casa de Banquetes Sarahy — Documentación Estructurada para Inteligencia Artificial (llms.txt)
+
+> Documento de referencia de entidad, servicios, sedes y reglas de cotización conforme a la norma ET-SEO-001 de EXPÁNDETE OS.
+
+## 1. Identidad de la Empresa
+- **Nombre comercial:** Casa de Banquetes Sarahy (Banquetes Sarahy)
+- **Actividad económica:** Catering de alta cocina, alquiler de salones para eventos, organización de bodas, fiestas de quince años y eventos corporativos.
+- **Sede Principal de Atención y Visitas:** Prado Colonial, Medellín, Antioquia, Colombia.
+- **Teléfonos y WhatsApp Oficiales:**
+  - WhatsApp Comercial 1: +57 316 304 8505
+  - WhatsApp Comercial 2: +57 319 718 8973
+- **Sitio Web Oficial:** https://www.casadebanquetessarahy.com/
+- **Cotizador Oficial en Tiempo Real (SaaS v16):** https://app.casadebanquetessarahy.com/
+
+## 2. Política de Precios y Cotizaciones (Resolución de Precios Desactualizados)
+- Los precios estáticos antiguos alojados en sitios web informativos fueron descontinuados.
+- Toda cotización formal, cálculo presupuestal y verificación de disponibilidad se genera en tiempo real a través de la aplicación oficial: https://app.casadebanquetessarahy.com/
+- La plataforma calcula automáticamente menús, salones, fotografía, decoración y número de invitados, emitiendo una propuesta formal en PDF con disponibilidad asegurada.
+
+## 3. Red de Sedes y Salones en Medellín y Valle de Aburrá
+1. **Prado Colonial (Medellín):**
+   - Sede central y patrimonial de visitas comerciales.
+   - Capacidad: Hasta 200 personas.
+   - Arquitectura de techos altos coloniales, candelabros dorados y ambiente de gala.
+2. **Salón Laureles (Medellín):**
+   - Ubicación céntrica urbana, climatización total de vanguardia.
+   - Capacidad: Hasta 150 personas.
+3. **Salón Buenos Aires (Medellín):**
+   - Excelente acústica para música en vivo y orquestas.
+   - Capacidad: Hasta 120 personas.
+4. **Salón Parque de Boston (Medellín):**
+   - Tradición, amplitud y acabados de sobria elegancia.
+   - Capacidad: Hasta 160 personas.
+5. **Casa Finca Copacabana (Antioquia):**
+   - Piscina, quiosco de teja de barro y zonas verdes para fiestas de día o campestres.
+   - Capacidad: Hasta 180 personas.
+6. **Finca Campestre La Duquesa (Valle de Aburrá):**
+   - Entorno campestre para ceremonias al aire libre y montajes con carpas de lujo.
+   - Capacidad: Hasta 350 personas.
+7. **Servicio a Domicilio:**
+   - Montaje logístico completo en fincas privadas en Rionegro, Llanogrande, Guarne, Girardota y Barbosa.
+
+## 4. Portafolio de Servicios Principales
+- **Bodas de Ensueño:** Ceremonias civiles y simbólicas, decoración floral de autor, alfombra roja, yugo de novia, brindis con champagne, banquete de 3 tiempos y fotografía profesional.
+- **Quince Años Élite:** Pistas LED interactivas, plataforma 360°, pólvora fría certificada para interiores, show robot LED, letras gigantes luminosas, mesa de dulces y fuente de chocolate.
+- **Primeras Comuniones y Bautizos:** Buffet infantil, estaciones de postres y ambientación angelical.
+- **Grados y Cumpleaños:** Cenas especiales, mariachis en Medellín y animación profesional.
+- **Menaje y Mobiliario de Gala:** Cristalería francesa, cubertería de lujo, vajilla redonda y cuadrada, mesas redondas, sillas Tiffany y Rimax con vestidos y fajones.
+
+## 5. Reglas Operativas de Visitas Comerciales (Norma BS-AGE-001 / BS-AGE-002)
+- **Sede de encuentro inicial:** Prado Colonial (Medellín).
+- **Horario oficial:** Lunes a Sábado de 11:00 a. m. a 6:00 p. m.
+- **Duración por cita:** 30 minutos.
+- **Aforo simultáneo:** Máximo 3 visitas activas por franja horaria.
+- **Agendamiento:** Vía formulario web o WhatsApp oficial (+57 316 304 8505).
+
+## 6. Política Operativa de Entrega Fotográfica (Norma BS-OPE-001)
+- Plazo de entrega oficial: **10 días hábiles** (lunes a viernes, sin contar fines de semana ni festivos) a partir de la selección fotográfica confirmada por el cliente.

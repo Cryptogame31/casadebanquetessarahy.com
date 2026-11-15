@@ -1,0 +1,26 @@
+# robots.txt para Casa de Banquetes Sarahy (ET-SEO-001)
+User-agent: *
+Allow: /
+
+# Rastreadores de Motores de Búsqueda Tradicionales
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Rastreadores de Búsqueda Inteligente e Inteligencia Artificial (GEO / AEO)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Mapa del sitio
+Sitemap: https://www.casadebanquetessarahy.com/sitemap.xml
