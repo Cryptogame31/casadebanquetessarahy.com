@@ -30,17 +30,21 @@ Este repositorio contiene la reconstrucción integral de la presencia web públi
 ```
 05 — LANDING OFICIAL CASADEBANQUETESSARAHY.COM/
 ├── index.html                          # Experiencia Principal + Simulador + Catálogo 118 servicios
-├── bodas.html                          # Landing especializada en Bodas de Ensueño
-├── quinces.html                        # Landing especializada en Quinceañeras Élite
-├── salones.html                        # Directorio de Sedes Coloniales y Fincas Campestres
-├── servicios.html                      # Catálogo de Menús 3 Tiempos, Menaje y Efectos Especiales
+├── bodas.html                          # Landing especializada en Bodas de Ensueño + Galería y Reels
+├── quinces.html                        # Landing especializada en Quinceañeras Élite + Galería y Reels
+├── salones.html                        # Directorio de Sedes (Prado Colonial, Playa Real, Duquesa, Valencia, Buenos Aires)
+├── servicios.html                      # Catálogo visual de Menús, Menaje, Cabina 360°, Robots LED y Domicilio
 ├── politicas.html                      # Políticas unificadas (Reembolsos, Fotografía, Privacidad, Baja y Play Store)
+├── assets/
+│   ├── js/sarahy-gallery.js            # Motor compartido de Galerías Interactivas, Reels MP4 y Lightbox HD
+│   └── media/                          # Banco curado (633 WebP reales + logo + 17 Reels MP4 sin precios obsoletos)
 ├── data/
-│   └── services.json                   # Base de datos normalizada de 118 servicios escaneados
+│   ├── galleries.json                  # Manifiesto estructurado de álbumes fotográficos y reels en vivo
+│   └── services.json                   # Base de datos normalizada y saneada de 118 servicios escaneados
 ├── robots.txt                          # Acceso permitido para Googlebot, Bingbot, Applebot, OAI-SearchBot, PerplexityBot y Claude-Web
 ├── sitemap.xml                         # Mapa del sitio canónico (6 URLs principales)
 ├── llms.txt                            # Resumen estructurado para motores generativos de IA
-├── vercel.json                         # URLs limpias (cleanUrls), rewrites legales hacia /politicas, headers de seguridad y caché
+├── vercel.json                         # URLs limpias (cleanUrls), rewrites legales hacia /politicas, headers de seguridad y caché (.webp/.mp4)
 ├── .gitignore                          # Exclusión de temporales y .vercel/
 ├── ABRIR_LANDING_REDISEÑO_SARAHY.bat   # Lanzador rápido local en Windows
 └── README.md                           # Documentación técnica del repositorio
