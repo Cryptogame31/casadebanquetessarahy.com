@@ -36,6 +36,7 @@ Este repositorio contiene la reconstrucción integral de la presencia web públi
 ├── servicios.html                      # Catálogo visual de Menús, Menaje, Cabina 360°, Robots LED y Domicilio
 ├── politicas.html                      # Políticas unificadas (Reembolsos, Fotografía, Privacidad, Baja y Play Store)
 ├── assets/
+│   ├── js/sarahy-catalog.js            # Directorio completo de 118 subpáginas, buscador Omnibar y fichas detalladas
 │   ├── js/sarahy-gallery.js            # Motor compartido de Galerías Interactivas, Reels MP4 y Lightbox HD
 │   └── media/                          # Banco curado (633 WebP reales + logo + 17 Reels MP4 sin precios obsoletos)
 ├── data/
@@ -82,11 +83,7 @@ Todas las páginas (`index.html`, `bodas.html`, `quinces.html`, `salones.html` y
 3. **`#privacidad`:** Política de Privacidad, tratamiento de datos personales y derechos de Habeas Data.
 4. **`#darse-de-baja`:** Solicitud directa de baja / eliminación de datos (formulario conectado a WhatsApp oficial) + bloque oficial en inglés **`Account Deletion Policy`** exigido por **Google Play Console**.
 
-Gracias a `"cleanUrls": true` y `rewrites` en [`vercel.json`](./vercel.json), las siguientes rutas históricas responden `200 OK` sirviendo `/politicas`:
-- `/refund-policy` → `/politicas`
-- `/darse-de-baja-play-store` → `/politicas`
-- `/darse-de-baja` → `/politicas`
-- `/politica-de-privacidad-y-otras` → `/politicas`
+Gracias a `"cleanUrls": true` y **119 reglas `rewrites`** en [`vercel.json`](./vercel.json), tanto las 4 rutas legales históricas (`/refund-policy`, `/darse-de-baja-play-store`, `/darse-de-baja`, `/politica-de-privacidad-y-otras` → `/politicas`) como las **115 rutas heredadas del catálogo de 118 subpáginas** (por ejemplo `/mariachi-`, `/finca-la-duquesa`, `/paquete-basico-para-bodas`, `/-sillas-tiffany`) responden `200 OK` abriendo su sección y ficha correspondiente sin errores 404.
 
 ---
 
