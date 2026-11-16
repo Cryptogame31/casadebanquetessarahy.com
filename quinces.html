@@ -4,9 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   <title>Quince Años Élite | Casa de Banquetes Sarahy Medellín</title>
-  <meta name="description" content="Servicios exclusivos de Quince Años Élite en Medellín con Casa de Banquetes Sarahy. Paquetes todo incluido, sedes coloniales y cotizador oficial en vivo.">
-  <link rel="canonical" href="https://www.casadebanquetessarahy.com/">
+  <meta name="description" content="Servicios exclusivos de Quince Años Élite en Medellín con Casa de Banquetes Sarahy. Pistas LED, letras iluminadas 15, protocolo de gala, plataforma 360° y cotizador en vivo.">
+  <link rel="canonical" href="https://www.casadebanquetessarahy.com/quinces">
   <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/png" href="assets/media/img/logo/logo-banquetes-sarahy.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.casadebanquetessarahy.com/quinces">
+  <meta property="og:title" content="Quince Años Élite | Casa de Banquetes Sarahy Medellín">
+  <meta property="og:description" content="Explora más de 65 fotografías reales y videos en vivo de fiestas de Quince Años en Medellín.">
+  <meta property="og:image" content="https://casadebanquetessarahy.vercel.app/assets/media/img/decoracion-premium/decoracion-premium-01.webp">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,6 +51,8 @@
     .bg-gold-gradient { background: linear-gradient(135deg, #E5C07B 0%, #D4AF37 50%, #B89025 100%); }
     .glass-panel { background: rgba(18, 23, 36, 0.75); backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.08); }
     .border-gold-glow { border: 1px solid rgba(212, 175, 55, 0.3); box-shadow: 0 0 20px rgba(212, 175, 55, 0.15); }
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
   </style>
 </head>
 <body class="relative antialiased selection:bg-gold-500 selection:text-black">
@@ -57,8 +66,8 @@
   <header class="sticky top-0 z-40 w-full glass-panel border-b border-white/10">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
       <a href="index.html" class="flex items-center gap-3">
-        <div class="w-10 h-10 rounded-full bg-gold-gradient flex items-center justify-center text-black">
-          <i data-lucide="crown" class="w-5 h-5"></i>
+        <div class="w-10 h-10 rounded-full bg-white/95 border border-gold-400 flex items-center justify-center p-0.5 overflow-hidden shadow-glow-gold">
+          <img src="assets/media/img/logo/logo-banquetes-sarahy.webp" alt="Emblema Banquetes Sarahy" class="w-full h-full object-contain rounded-full">
         </div>
         <div>
           <span class="font-cinzel font-bold text-lg text-white">BANQUETES <span class="text-gold-400">SARAHY</span></span>
@@ -69,15 +78,16 @@
         <a href="index.html" class="hover:text-gold-400 transition-colors">Inicio</a>
         <a href="bodas.html" class="hover:text-gold-400 transition-colors">Bodas</a>
         <a href="quinces.html" class="text-gold-400 font-bold">Quinces</a>
-        <a href="salones.html" class="hover:text-gold-400 transition-colors">Salones & Fincas</a>
+        <a href="salones.html" class="hover:text-gold-400 transition-colors">Salones &amp; Fincas</a>
         <a href="servicios.html" class="hover:text-gold-400 transition-colors">Servicios</a>
         <a href="index.html#visitas" class="hover:text-gold-400 transition-colors">Visitas Prado</a>
       </nav>
-      <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" class="px-5 py-2.5 rounded-xl bg-gold-gradient text-black font-bold text-xs uppercase tracking-wider shadow-glow-gold hover:scale-105 transition-all">
+      <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" onclick="window.triggerSarahyConfetti && window.triggerSarahyConfetti()" class="px-5 py-2.5 rounded-xl bg-gold-gradient text-black font-bold text-xs uppercase tracking-wider shadow-glow-gold hover:scale-105 transition-all">
         Cotizador Oficial ↗
       </a>
     </div>
   </header>
+
   <section class="py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center max-w-3xl mx-auto mb-16">
       <span class="text-gold-400 text-xs font-bold uppercase tracking-widest">Noche Mágica Inolvidable</span>
@@ -85,55 +95,82 @@
         QUINCE AÑOS <span class="text-gold-gradient">ÉLITE</span>
       </h1>
       <p class="text-zinc-300 text-lg leading-relaxed">
-        Celebra tus quince con un despliegue audiovisual de alta categoría: pistas LED interactivas, plataforma 360°, pólvora fría certificada para interiores, show robot LED y el vals tradicional más emocionante.
+        Celebra tus quince con un despliegue audiovisual de alta categoría: pistas LED interactivas, plataforma 360°, pólvora fría certificada para interiores, show robot LED, edecanes y el vals tradicional más emocionante.
       </p>
-      <div class="mt-8 flex justify-center gap-4">
-        <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" class="px-8 py-4 rounded-2xl bg-gold-gradient text-black font-extrabold text-sm uppercase tracking-wider shadow-glow-gold hover:scale-105 transition-all">
+      <div class="mt-8 flex flex-wrap justify-center gap-4">
+        <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" onclick="window.triggerSarahyConfetti && window.triggerSarahyConfetti()" class="px-8 py-4 rounded-2xl bg-gold-gradient text-black font-extrabold text-sm uppercase tracking-wider shadow-glow-gold hover:scale-105 transition-all">
           Calcular Fiesta de Quinces en el Cotizador ↗
+        </a>
+        <a href="#galeria-quinces" class="px-7 py-4 rounded-2xl glass-panel border border-gold-500/40 text-gold-300 font-bold text-sm uppercase tracking-wider hover:bg-gold-500/15 transition-all">
+          Explorar Galería de 15 Años ↓
         </a>
       </div>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <div class="glass-panel rounded-3xl overflow-hidden border border-white/10">
-        <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=795,fit=crop/YrDLqbRVvKiOwZLO/whatsapp-image-2023-06-15-at-3.46.10-pm-dWxMv3bR54hbRk94.jpeg" class="w-full h-64 object-cover">
+    <!-- Highlights Grid Quinces -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
+      <div class="glass-panel rounded-3xl overflow-hidden border border-white/10 hover:border-gold-500/40 transition-all">
+        <img src="assets/media/img/decoracion-premium/decoracion-premium-01.webp" alt="Quinceañera con backing neón 15 dorado Banquetes Sarahy" class="w-full h-64 object-cover">
         <div class="p-6">
-          <h3 class="font-cinzel font-bold text-white text-lg mb-2">Pista LED & Efectos Especiales</h3>
-          <p class="text-zinc-400 text-xs leading-relaxed mb-4">Pista de baile pixel LED de 6 horas, chisperos de pólvora fría para la entrada de la quinceañera y cañón de confeti.</p>
-          <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" class="text-gold-400 text-xs font-bold uppercase">Cotizar Pista LED ↗</a>
-        </div>
-      </div>
-
-      <div class="glass-panel rounded-3xl overflow-hidden border border-white/10">
-        <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=768,fit=crop/YrDLqbRVvKiOwZLO/photo_4941001313454500871_x-AwvLbe6W1DTD7oG2.jpg" class="w-full h-64 object-cover">
-        <div class="p-6">
-          <h3 class="font-cinzel font-bold text-white text-lg mb-2">Decoración Temática & Neón</h3>
-          <p class="text-zinc-400 text-xs leading-relaxed mb-4">Letras gigantes iluminadas "15", backing fotográfico para selfies, mesas de cilindros dorados y arcos orgánicos de globos.</p>
+          <h3 class="font-cinzel font-bold text-white text-lg mb-2">Decoración Neón, Tronos &amp; Flores</h3>
+          <p class="text-zinc-400 text-xs leading-relaxed mb-4">Letras gigantes iluminadas "15", backing fotográfico dorado, silla trono real, mesas de cilindros y arcos orgánicos de globos.</p>
           <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" class="text-gold-400 text-xs font-bold uppercase">Cotizar Decoración ↗</a>
         </div>
       </div>
 
-      <div class="glass-panel rounded-3xl overflow-hidden border border-white/10">
-        <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=768,fit=crop/YrDLqbRVvKiOwZLO/photo_4941001313454500872_y-AR0lWQGk4rt3aM0Y.jpg" class="w-full h-64 object-cover">
+      <div class="glass-panel rounded-3xl overflow-hidden border border-white/10 hover:border-gold-500/40 transition-all">
+        <img src="assets/media/img/galas/dsc-0081.webp" alt="Quinceañera de gala roja con montaje en Prado Colonial Banquetes Sarahy" class="w-full h-64 object-cover">
         <div class="p-6">
-          <h3 class="font-cinzel font-bold text-white text-lg mb-2">Mesa de Dulces & Fuente de Chocolate</h3>
-          <p class="text-zinc-400 text-xs leading-relaxed mb-4">Cascada de chocolate suizo con fresas y masmelos, estación de postres finos, torta en pastillaje y pasabocas gourmet.</p>
-          <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" class="text-gold-400 text-xs font-bold uppercase">Cotizar Mesa Dulce ↗</a>
+          <h3 class="font-cinzel font-bold text-white text-lg mb-2">Protocolo de Gala &amp; Edecanes</h3>
+          <p class="text-zinc-400 text-xs leading-relaxed mb-4">Entrada triunfal con chisperos fríos, cambio de zapatilla, edecanes coreográficos, maestro de ceremonias y vals emocionante.</p>
+          <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" class="text-gold-400 text-xs font-bold uppercase">Cotizar Protocolo ↗</a>
+        </div>
+      </div>
+
+      <div class="glass-panel rounded-3xl overflow-hidden border border-white/10 hover:border-gold-500/40 transition-all">
+        <img src="assets/media/img/servicios/mesas-de-dulces-y-pasabocas-01.webp" alt="Mesa de dulces gourmet y postres en copas Banquetes Sarahy" class="w-full h-64 object-cover">
+        <div class="p-6">
+          <h3 class="font-cinzel font-bold text-white text-lg mb-2">Mesa de Dulces, Pista LED &amp; Cabina 360</h3>
+          <p class="text-zinc-400 text-xs leading-relaxed mb-4">Estación de postres finos y pasabocas, pista de baile LED por 6 horas, robots luminosos y plataforma fotográfica 360°.</p>
+          <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" class="text-gold-400 text-xs font-bold uppercase">Cotizar Todo Incluido ↗</a>
         </div>
       </div>
     </div>
+
+    <!-- Reels Quinces -->
+    <div class="mb-16">
+      <h2 class="font-cinzel text-2xl sm:text-3xl font-bold text-white mb-6">
+        VIDEOS REALES DE <span class="text-gold-gradient">QUINCEAÑERAS EN VIVO</span>
+      </h2>
+      <div id="quinces-reels-track" class="flex gap-4 overflow-x-auto pb-4 no-scrollbar"></div>
+    </div>
+
+    <!-- Full Gallery Quinces -->
+    <div id="galeria-quinces">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2 mb-6">
+        <div>
+          <span class="text-gold-400 text-xs font-bold uppercase tracking-widest">Más de 100 Fotografías Reales</span>
+          <h2 class="font-cinzel text-2xl sm:text-4xl font-bold text-white mt-1">GALERÍA DE QUINCE AÑOS &amp; MONTAJES PREMIUM</h2>
+        </div>
+        <span class="text-xs text-zinc-400">Pulsa cualquier foto para abrir el visor HD</span>
+      </div>
+      <div id="quinces-gallery-root"></div>
+    </div>
   </section>
-  <footer class="bg-obsidian border-t border-white/10 pt-12 pb-8 text-zinc-400 text-xs mt-20">
+
+  <footer class="bg-obsidian border-t border-white/10 pt-12 pb-8 text-zinc-400 text-xs mt-16">
     <div class="max-w-7xl mx-auto px-4">
       <div class="text-center sm:flex sm:justify-between sm:items-center sm:text-left pb-6 border-b border-white/5">
         <div>
           <p class="font-cinzel text-white font-bold text-sm mb-1">CASA DE BANQUETES SARAHY MEDELLÍN</p>
           <p>Sede Principal: Prado Colonial • Contacto: +57 316 304 8505 / +57 319 718 8973</p>
         </div>
-        <div class="mt-4 sm:mt-0">
-          <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" class="text-gold-400 font-bold underline">
-            Calcular Presupuesto en el Cotizador Oficial ↗
-          </a>
+        <div class="mt-4 sm:mt-0 flex items-center justify-center gap-3">
+          <a href="https://www.facebook.com/banquetessarahy?locale=es_LA" target="_blank" rel="noopener" class="hover:text-gold-400 transition-colors">Facebook</a>
+          <span class="text-zinc-700">•</span>
+          <a href="https://www.instagram.com/banquetessarahy/" target="_blank" rel="noopener" class="hover:text-gold-400 transition-colors">Instagram</a>
+          <span class="text-zinc-700">•</span>
+          <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" class="text-gold-400 font-bold underline">Cotizador Oficial ↗</a>
         </div>
       </div>
       <div class="pt-6 flex flex-wrap items-center justify-center sm:justify-between gap-4 text-[11px] text-zinc-500">
@@ -150,9 +187,26 @@
       </div>
     </div>
   </footer>
+  <script src="assets/js/sarahy-gallery.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       if (window.lucide) lucide.createIcons();
+      if (window.mountSarahyReels) window.mountSarahyReels('quinces-reels-track', ['quinces', 'decoracion', 'servicios']);
+      if (window.mountSarahyGallery) {
+        window.mountSarahyGallery({
+          containerId: 'quinces-gallery-root',
+          allowedCats: ['quinces', 'decoracion', 'fotobook'],
+          defaultTab: 'quinces',
+          initialLimit: 16,
+          step: 16,
+          tabMatchMap: { decoracion: ['decoracion-premium', 'decoracion-esencial'] },
+          tabs: [
+            { key: 'quinces', label: '👑 Fiestas de 15 Años' },
+            { key: 'decoracion', label: '✨ Decoración & Tronos' },
+            { key: 'fotobook', label: '📖 Fotobooks Reales' }
+          ]
+        });
+      }
     });
   </script>
 </body>

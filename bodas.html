@@ -4,9 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   <title>Bodas de Ensueño | Casa de Banquetes Sarahy Medellín</title>
-  <meta name="description" content="Servicios exclusivos de Bodas de Ensueño en Medellín con Casa de Banquetes Sarahy. Paquetes todo incluido, sedes coloniales y cotizador oficial en vivo.">
-  <link rel="canonical" href="https://www.casadebanquetessarahy.com/">
+  <meta name="description" content="Servicios exclusivos de Bodas de Ensueño en Medellín con Casa de Banquetes Sarahy. Ceremonias en iglesia, sedes coloniales, decoración floral y cotizador oficial en vivo.">
+  <link rel="canonical" href="https://www.casadebanquetessarahy.com/bodas">
   <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/png" href="assets/media/img/logo/logo-banquetes-sarahy.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.casadebanquetessarahy.com/bodas">
+  <meta property="og:title" content="Bodas de Ensueño | Casa de Banquetes Sarahy Medellín">
+  <meta property="og:description" content="Ceremonias, recepciones en Prado Colonial y fincas campestres con banquete de 3 tiempos y fotografía profesional.">
+  <meta property="og:image" content="https://casadebanquetessarahy.vercel.app/assets/media/img/bodas/decoracion-de-iglesias-01.webp">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,6 +51,8 @@
     .bg-gold-gradient { background: linear-gradient(135deg, #E5C07B 0%, #D4AF37 50%, #B89025 100%); }
     .glass-panel { background: rgba(18, 23, 36, 0.75); backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.08); }
     .border-gold-glow { border: 1px solid rgba(212, 175, 55, 0.3); box-shadow: 0 0 20px rgba(212, 175, 55, 0.15); }
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
   </style>
 </head>
 <body class="relative antialiased selection:bg-gold-500 selection:text-black">
@@ -57,8 +66,8 @@
   <header class="sticky top-0 z-40 w-full glass-panel border-b border-white/10">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
       <a href="index.html" class="flex items-center gap-3">
-        <div class="w-10 h-10 rounded-full bg-gold-gradient flex items-center justify-center text-black">
-          <i data-lucide="crown" class="w-5 h-5"></i>
+        <div class="w-10 h-10 rounded-full bg-white/95 border border-gold-400 flex items-center justify-center p-0.5 overflow-hidden shadow-glow-gold">
+          <img src="assets/media/img/logo/logo-banquetes-sarahy.webp" alt="Emblema Banquetes Sarahy" class="w-full h-full object-contain rounded-full">
         </div>
         <div>
           <span class="font-cinzel font-bold text-lg text-white">BANQUETES <span class="text-gold-400">SARAHY</span></span>
@@ -73,11 +82,12 @@
         <a href="servicios.html" class="hover:text-gold-400 transition-colors">Servicios</a>
         <a href="index.html#visitas" class="hover:text-gold-400 transition-colors">Visitas Prado</a>
       </nav>
-      <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" class="px-5 py-2.5 rounded-xl bg-gold-gradient text-black font-bold text-xs uppercase tracking-wider shadow-glow-gold hover:scale-105 transition-all">
+      <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" onclick="window.triggerSarahyConfetti && window.triggerSarahyConfetti()" class="px-5 py-2.5 rounded-xl bg-gold-gradient text-black font-bold text-xs uppercase tracking-wider shadow-glow-gold hover:scale-105 transition-all">
         Cotizador Oficial ↗
       </a>
     </div>
   </header>
+
   <section class="py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center max-w-3xl mx-auto mb-16">
       <span class="text-gold-400 text-xs font-bold uppercase tracking-widest">Planificación Nupcial Completa</span>
@@ -85,56 +95,82 @@
         BODAS DE <span class="text-gold-gradient">ENSUEÑO</span>
       </h1>
       <p class="text-zinc-300 text-lg leading-relaxed">
-        El día más esperado de tu vida merece una puesta en escena irrepetible. Diseñamos ceremonias y recepciones en Prado Colonial, Laureles y fincas campestres con gastronomía gourmet de tres tiempos y decoración floral de autor.
+        El día más esperado de tu vida merece una puesta en escena irrepetible. Diseñamos ceremonias religiosas o campestres y recepciones de gala con gastronomía de tres tiempos, candelabros dorados y decoración floral de autor.
       </p>
-      <div class="mt-8 flex justify-center gap-4">
-        <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" class="px-8 py-4 rounded-2xl bg-gold-gradient text-black font-extrabold text-sm uppercase tracking-wider shadow-glow-gold hover:scale-105 transition-all">
+      <div class="mt-8 flex flex-wrap justify-center gap-4">
+        <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" onclick="window.triggerSarahyConfetti && window.triggerSarahyConfetti()" class="px-8 py-4 rounded-2xl bg-gold-gradient text-black font-extrabold text-sm uppercase tracking-wider shadow-glow-gold hover:scale-105 transition-all">
           Cotizar mi Boda en el Cotizador Oficial ↗
+        </a>
+        <a href="#galeria-bodas" class="px-7 py-4 rounded-2xl glass-panel border border-gold-500/40 text-gold-300 font-bold text-sm uppercase tracking-wider hover:bg-gold-500/15 transition-all">
+          Ver Galería Real de Bodas ↓
         </a>
       </div>
     </div>
 
-    <!-- Gallery Grid Bodas -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <div class="glass-panel rounded-3xl overflow-hidden border border-white/10">
-        <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/YrDLqbRVvKiOwZLO/whatsapp-image-2026-02-18-at-11.29.13-am-YlGVKuyUaaR4QnBq.jpeg" class="w-full h-64 object-cover">
+    <!-- Highlights Grid Bodas -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
+      <div class="glass-panel rounded-3xl overflow-hidden border border-white/10 hover:border-gold-500/40 transition-all">
+        <img src="assets/media/img/bodas/decoracion-de-iglesias-01.webp" alt="Decoración de iglesias y alfombra roja nupcial Banquetes Sarahy" class="w-full h-64 object-cover">
         <div class="p-6">
-          <h3 class="font-cinzel font-bold text-white text-lg mb-2">Ceremonia & Recepción Real</h3>
-          <p class="text-zinc-400 text-xs leading-relaxed mb-4">Montajes coloniales con candelabros dorados, alfombra roja nupcial y arcos de flores naturales importadas.</p>
-          <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" class="text-gold-400 text-xs font-bold uppercase">Cotizar Boda ↗</a>
+          <h3 class="font-cinzel font-bold text-white text-lg mb-2">Ceremonia &amp; Decoración de Iglesias</h3>
+          <p class="text-zinc-400 text-xs leading-relaxed mb-4">Montajes solemnes con bases florales en flor natural, yugo de novia, alfombra roja y ambientación integral en iglesia o jardín campestre.</p>
+          <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" class="text-gold-400 text-xs font-bold uppercase">Cotizar Ceremonia ↗</a>
         </div>
       </div>
 
-      <div class="glass-panel rounded-3xl overflow-hidden border border-white/10">
-        <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=768,fit=crop/YrDLqbRVvKiOwZLO/whatsapp-image-2023-06-26-at-6.45.05-pm-2-YKb10n2M7pUPlW5J.jpeg" class="w-full h-64 object-cover">
+      <div class="glass-panel rounded-3xl overflow-hidden border border-white/10 hover:border-gold-500/40 transition-all">
+        <img src="assets/media/img/decoracion-premium/decoracion-premiun.webp" alt="Banquete nupcial mesa de torta y candelabros Banquetes Sarahy" class="w-full h-64 object-cover">
         <div class="p-6">
-          <h3 class="font-cinzel font-bold text-white text-lg mb-2">Banquete Nupcial Gourmet</h3>
-          <p class="text-zinc-400 text-xs leading-relaxed mb-4">Menús de autor con lomo fino, pechuga rellena, ensaladas mediterráneas y cóctel de bienvenida de gala.</p>
+          <h3 class="font-cinzel font-bold text-white text-lg mb-2">Banquete Nupcial &amp; Mesa de Gala</h3>
+          <p class="text-zinc-400 text-xs leading-relaxed mb-4">Menús de autor de 3 tiempos, cóctel de bienvenida, candelabros dorados, cristalería fina y torta nupcial artesanal.</p>
           <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" class="text-gold-400 text-xs font-bold uppercase">Cotizar Banquete ↗</a>
         </div>
       </div>
 
-      <div class="glass-panel rounded-3xl overflow-hidden border border-white/10">
-        <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/YrDLqbRVvKiOwZLO/2-YBgo7nD6vXHRXJj1.jpg" class="w-full h-64 object-cover">
+      <div class="glass-panel rounded-3xl overflow-hidden border border-white/10 hover:border-gold-500/40 transition-all">
+        <img src="assets/media/img/bodas/momentos-de-bodas-02.webp" alt="Momentos reales de novios y padrinos en recepción Banquetes Sarahy" class="w-full h-64 object-cover">
         <div class="p-6">
-          <h3 class="font-cinzel font-bold text-white text-lg mb-2">Fotografía & Video Cinematográfico</h3>
-          <p class="text-zinc-400 text-xs leading-relaxed mb-4">Cobertura total de la ceremonia, sesión previa de pareja y fiesta con entrega garantizada en 10 días hábiles (BS-OPE-001).</p>
+          <h3 class="font-cinzel font-bold text-white text-lg mb-2">Fotografía, Video &amp; Hora Loca</h3>
+          <p class="text-zinc-400 text-xs leading-relaxed mb-4">Cobertura completa de la ceremonia, sesión de pareja y fiesta con entrega garantizada en 10 días hábiles (norma operativa BS-OPE-001).</p>
           <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" class="text-gold-400 text-xs font-bold uppercase">Cotizar Fotografía ↗</a>
         </div>
       </div>
     </div>
+
+    <!-- Reels Bodas -->
+    <div class="mb-16">
+      <h2 class="font-cinzel text-2xl sm:text-3xl font-bold text-white mb-6">
+        REELS &amp; MOMENTOS <span class="text-gold-gradient">NUPCIALES EN VIVO</span>
+      </h2>
+      <div id="bodas-reels-track" class="flex gap-4 overflow-x-auto pb-4 no-scrollbar"></div>
+    </div>
+
+    <!-- Full Gallery Bodas + Decoración + Fotobook -->
+    <div id="galeria-bodas">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2 mb-6">
+        <div>
+          <span class="text-gold-400 text-xs font-bold uppercase tracking-widest">Portafolio Real de Parejas</span>
+          <h2 class="font-cinzel text-2xl sm:text-4xl font-bold text-white mt-1">GALERÍA DE BODAS, IGLESIAS &amp; FOTOBOOK</h2>
+        </div>
+        <span class="text-xs text-zinc-400">Pulsa cualquier foto para ampliar</span>
+      </div>
+      <div id="bodas-gallery-root"></div>
+    </div>
   </section>
-  <footer class="bg-obsidian border-t border-white/10 pt-12 pb-8 text-zinc-400 text-xs mt-20">
+
+  <footer class="bg-obsidian border-t border-white/10 pt-12 pb-8 text-zinc-400 text-xs mt-16">
     <div class="max-w-7xl mx-auto px-4">
       <div class="text-center sm:flex sm:justify-between sm:items-center sm:text-left pb-6 border-b border-white/5">
         <div>
           <p class="font-cinzel text-white font-bold text-sm mb-1">CASA DE BANQUETES SARAHY MEDELLÍN</p>
           <p>Sede Principal: Prado Colonial • Contacto: +57 316 304 8505 / +57 319 718 8973</p>
         </div>
-        <div class="mt-4 sm:mt-0">
-          <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" class="text-gold-400 font-bold underline">
-            Calcular Presupuesto en el Cotizador Oficial ↗
-          </a>
+        <div class="mt-4 sm:mt-0 flex items-center justify-center gap-3">
+          <a href="https://www.facebook.com/banquetessarahy?locale=es_LA" target="_blank" rel="noopener" class="hover:text-gold-400 transition-colors">Facebook</a>
+          <span class="text-zinc-700">•</span>
+          <a href="https://www.instagram.com/banquetessarahy/" target="_blank" rel="noopener" class="hover:text-gold-400 transition-colors">Instagram</a>
+          <span class="text-zinc-700">•</span>
+          <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" class="text-gold-400 font-bold underline">Cotizador Oficial ↗</a>
         </div>
       </div>
       <div class="pt-6 flex flex-wrap items-center justify-center sm:justify-between gap-4 text-[11px] text-zinc-500">
@@ -151,9 +187,26 @@
       </div>
     </div>
   </footer>
+  <script src="assets/js/sarahy-gallery.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       if (window.lucide) lucide.createIcons();
+      if (window.mountSarahyReels) window.mountSarahyReels('bodas-reels-track', ['bodas', 'decoracion', 'destacados']);
+      if (window.mountSarahyGallery) {
+        window.mountSarahyGallery({
+          containerId: 'bodas-gallery-root',
+          allowedCats: ['bodas', 'decoracion', 'fotobook'],
+          defaultTab: 'bodas',
+          initialLimit: 16,
+          step: 16,
+          tabMatchMap: { decoracion: ['decoracion-premium', 'decoracion-esencial'] },
+          tabs: [
+            { key: 'bodas', label: '💍 Ceremonias & Bodas' },
+            { key: 'decoracion', label: '🌸 Decoración Nupcial' },
+            { key: 'fotobook', label: '📖 Fotobooks' }
+          ]
+        });
+      }
     });
   </script>
 </body>
