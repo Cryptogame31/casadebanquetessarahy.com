@@ -74,17 +74,38 @@
           <span class="block text-[10px] tracking-widest text-zinc-400 uppercase">Medellín</span>
         </div>
       </a>
-      <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-zinc-300">
+      <nav class="hidden lg:flex items-center gap-6 text-sm font-medium text-zinc-300">
         <a href="index.html" class="hover:text-gold-400 transition-colors">Inicio</a>
         <a href="bodas.html" class="hover:text-gold-400 transition-colors">Bodas</a>
         <a href="quinces.html" class="hover:text-gold-400 transition-colors">Quinces</a>
         <a href="salones.html" class="hover:text-gold-400 transition-colors">Salones &amp; Fincas</a>
-        <a href="servicios.html" class="text-gold-400 font-bold">Servicios</a>
+        <a href="servicios.html" class="text-gold-400 font-bold flex items-center gap-1">
+          <span>Servicios</span>
+          <span class="px-1.5 py-0.5 rounded-full bg-gold-500 text-black text-[10px] font-extrabold">118</span>
+        </a>
+        <a href="index.html#galerias" class="hover:text-gold-400 transition-colors">Galerías</a>
         <a href="index.html#visitas" class="hover:text-gold-400 transition-colors">Visitas Prado</a>
       </nav>
-      <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" onclick="window.triggerSarahyConfetti && window.triggerSarahyConfetti()" class="px-5 py-2.5 rounded-xl bg-gold-gradient text-black font-bold text-xs uppercase tracking-wider shadow-glow-gold hover:scale-105 transition-all">
-        Cotizador Oficial ↗
-      </a>
+      <div class="flex items-center gap-2.5">
+        <button type="button" onclick="toggleSearchModal(true)" aria-label="Buscar entre 118 subpáginas" class="p-2.5 rounded-xl bg-white/5 border border-white/10 hover:border-gold-500/50 text-zinc-300 hover:text-gold-400 transition-all">
+          <i data-lucide="search" class="w-4 h-4"></i>
+        </button>
+        <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" onclick="window.triggerSarahyConfetti && window.triggerSarahyConfetti()" class="hidden sm:inline-flex px-5 py-2.5 rounded-xl bg-gold-gradient text-black font-bold text-xs uppercase tracking-wider shadow-glow-gold hover:scale-105 transition-all">
+          Cotizador Oficial ↗
+        </a>
+        <button type="button" onclick="toggleMobileMenu()" aria-label="Abrir menú" class="lg:hidden p-2 rounded-xl bg-white/5 border border-white/10 text-zinc-300">
+          <i data-lucide="menu" class="w-5 h-5"></i>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden lg:hidden glass-panel border-t border-white/10 px-6 py-5 flex flex-col gap-3 text-sm">
+      <a href="index.html" class="text-zinc-200 hover:text-gold-400">Inicio</a>
+      <a href="bodas.html" class="text-zinc-200 hover:text-gold-400">💍 Bodas de Ensueño</a>
+      <a href="quinces.html" class="text-zinc-200 hover:text-gold-400">👑 Quince Años Élite</a>
+      <a href="salones.html" class="text-zinc-200 hover:text-gold-400">🏰 Sedes &amp; Fincas</a>
+      <a href="servicios.html" class="text-gold-400 font-bold">✨ Todos los Servicios &amp; Subpáginas (118)</a>
+      <a href="index.html#galerias" class="text-zinc-300 hover:text-gold-400">🎬 Galerías &amp; Reels</a>
+      <button type="button" onclick="toggleMobileMenu(); toggleSearchModal(true)" class="text-left text-gold-300 font-semibold">🔍 Buscar entre 118 Subpáginas</button>
     </div>
   </header>
 
@@ -101,8 +122,11 @@
         <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" onclick="window.triggerSarahyConfetti && window.triggerSarahyConfetti()" class="px-8 py-4 rounded-2xl bg-gold-gradient text-black font-extrabold text-sm uppercase tracking-wider shadow-glow-gold hover:scale-105 transition-all">
           Armar mi Menú en el Cotizador Oficial ↗
         </a>
-        <a href="#galeria-servicios" class="px-7 py-4 rounded-2xl glass-panel border border-gold-500/40 text-gold-300 font-bold text-sm uppercase tracking-wider hover:bg-gold-500/15 transition-all">
-          Ver Catálogo Visual Real ↓
+        <a href="#catalogo-118" class="px-7 py-4 rounded-2xl glass-panel border border-gold-500/40 text-gold-300 font-bold text-sm uppercase tracking-wider hover:bg-gold-500/15 transition-all">
+          Explorar las 118 Subpáginas ↓
+        </a>
+        <a href="#galeria-servicios" class="px-7 py-4 rounded-2xl glass-panel border border-white/15 text-zinc-200 font-bold text-sm uppercase tracking-wider hover:border-gold-500/40 transition-all">
+          Ver Galería Visual ↓
         </a>
       </div>
     </div>
@@ -194,6 +218,20 @@
       </div>
     </div>
 
+    <!-- Directorio Completo 118 Subpáginas -->
+    <div id="catalogo-118" class="mb-20 pt-6 border-t border-white/10">
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <span class="text-gold-400 text-xs font-bold uppercase tracking-widest">Todas las Subpáginas Integradas</span>
+        <h2 class="font-cinzel text-2xl sm:text-4xl font-bold text-white mt-2 mb-3">
+          DIRECTORIO COMPLETO (<span class="text-gold-gradient">118 SERVICIOS Y SUBPÁGINAS</span>)
+        </h2>
+        <p class="text-zinc-400 text-sm">
+          Filtra por categoría, busca al instante o pulsa «Mostrar Todas (118)». En cada tarjeta puedes abrir su ficha detallada o cotizar en vivo.
+        </p>
+      </div>
+      <div id="servicios-catalog-root"></div>
+    </div>
+
     <!-- Reels Shows & Montajes -->
     <div class="mb-16">
       <h2 class="font-cinzel text-2xl sm:text-3xl font-bold text-white mb-6">
@@ -244,10 +282,12 @@
       </div>
     </div>
   </footer>
+  <script src="assets/js/sarahy-catalog.js"></script>
   <script src="assets/js/sarahy-gallery.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       if (window.lucide) lucide.createIcons();
+      if (window.mountSarahyCatalog) window.mountSarahyCatalog({ containerId: 'servicios-catalog-root', initialLimit: 24 });
       if (window.mountSarahyReels) window.mountSarahyReels('servicios-reels-track', ['servicios', 'decoracion', 'destacados']);
       if (window.mountSarahyGallery) {
         window.mountSarahyGallery({

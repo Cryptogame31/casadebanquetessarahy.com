@@ -2,10 +2,482 @@
   "version": 2,
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/refund-policy", "destination": "/politicas" },
-    { "source": "/darse-de-baja-play-store", "destination": "/politicas" },
-    { "source": "/darse-de-baja", "destination": "/politicas" },
-    { "source": "/politica-de-privacidad-y-otras", "destination": "/politicas" }
+    {
+      "source": "/refund-policy",
+      "destination": "/politicas"
+    },
+    {
+      "source": "/darse-de-baja-play-store",
+      "destination": "/politicas"
+    },
+    {
+      "source": "/darse-de-baja",
+      "destination": "/politicas"
+    },
+    {
+      "source": "/politica-de-privacidad-y-otras",
+      "destination": "/politicas"
+    },
+    {
+      "source": "/concurso-viraliza-tu-graduacion-con-banquetes-sarahy",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/paquete-basico-para-quinces",
+      "destination": "/quinces"
+    },
+    {
+      "source": "/tabla-de-precios-servicios-para-bodas-2025-2026",
+      "destination": "/bodas"
+    },
+    {
+      "source": "/socios",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/concursos",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/paquete-basico-para-bodas",
+      "destination": "/bodas"
+    },
+    {
+      "source": "/creando-momentos-magicos",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/bautizos",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/promociones",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/fotos-y-videos-de-primeras-comuniones",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/servicio-a-domicilio",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/primeras-comuniones",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/paquete-premium-para-quince",
+      "destination": "/quinces"
+    },
+    {
+      "source": "/tienda",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/trabaja-con-nosotros",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/fotos-y-videos-de-cumpleanos-y-grados",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/finca-la-duquesa",
+      "destination": "/salones"
+    },
+    {
+      "source": "/cumpleanos",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/eventos-masivos-y-empresariales",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/quinces-2024",
+      "destination": "/quinces"
+    },
+    {
+      "source": "/cenas-espaciales",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/cenas-navidenas",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/calculatufiestainfantil",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/fotos-y-videos-de-bodas-copy",
+      "destination": "/bodas"
+    },
+    {
+      "source": "/fotos-y-videos-de-bodas",
+      "destination": "/bodas"
+    },
+    {
+      "source": "/calculatusquince",
+      "destination": "/quinces"
+    },
+    {
+      "source": "/blog-list",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/ubicaciones",
+      "destination": "/salones"
+    },
+    {
+      "source": "/show-robot",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/salon-buenos-aires",
+      "destination": "/salones"
+    },
+    {
+      "source": "/como-reservo",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/salon-boston",
+      "destination": "/salones"
+    },
+    {
+      "source": "/tendencias-2024-en-bodas",
+      "destination": "/bodas"
+    },
+    {
+      "source": "/elementos-clave-para-la-boda-de-tus-suenos",
+      "destination": "/bodas"
+    },
+    {
+      "source": "/finca-copacabana",
+      "destination": "/salones"
+    },
+    {
+      "source": "/salon-prado-centro-colonial",
+      "destination": "/salones"
+    },
+    {
+      "source": "/decoracion-de-iglesias",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/cabinas-360",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/calculatuboda",
+      "destination": "/bodas"
+    },
+    {
+      "source": "/fotografia",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/quinces-1",
+      "destination": "/quinces"
+    },
+    {
+      "source": "/salon-laureles",
+      "destination": "/salones"
+    },
+    {
+      "source": "/decoraciones",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/grados",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/torta-bizcocho",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/garrafa-de-ron-o-guaro",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/foto-de-bienvenida-50x70-a-domicilio-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/manteleria",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/torta-para-20-porciones",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/coctel-de-bienvenida-por-litro",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/dj-sonido-y-luces",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/-hieleras-con-pinzas",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/decoracion-con-tematica",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/fotografia-para-eventos-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/maquina-granizadora-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/montaje-del-protocolo-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/papayera-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/gaseosa",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/-vaso-para-gaseosa",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/vaso-roquero",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/-antorcha-en-pena-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/-arcos-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/edecanes-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/meseros-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/pasa-bocas-ilimitados",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/mariachi-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/video-de-recuerdos",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/tarjetas-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/filmacion-y-edicion-de-video-a-domicilio",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/vestidos-de-silla-y-fajones-par",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/botella-de-champagne-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/-sillas-rimax",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/-sillas-tiffany",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/pastelitos-de-guayaba-paquetesx20",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/pasabocas-volovanes-paquetex10",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/pasabocas-mini-wrapp",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/perro-caliente",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/cerezas-queseras-paquete-x20",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/pasabocas-hamoncitos-abrazando-codornices-paquete-x-25",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/hamburguesa-delicia-suprema",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/pista-fotografica-360-giratoria",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/-yugo-de-novia-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/mariachis-en-medellin",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/handmade-vase-ikigai",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/decoracion-de-iglesia-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/salon-laureles-",
+      "destination": "/salones"
+    },
+    {
+      "source": "/salon-buenos-aires1",
+      "destination": "/salones"
+    },
+    {
+      "source": "/salon-en-casa-finca-copacabana-sillas-y-mesas-",
+      "destination": "/salones"
+    },
+    {
+      "source": "/salon-prado-centro",
+      "destination": "/salones"
+    },
+    {
+      "source": "/salon-parque-de-boston",
+      "destination": "/salones"
+    },
+    {
+      "source": "/coctel-de-bienvenida-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/brindis",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/-polvora-fria-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/buffet-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/buffet-para-ninos",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/-mesa-de-dulces",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/mesas-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/carpas-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/-plato-redondo",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/plato-pequeno-redondo",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/plato-cuadrado",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/plato-cuadrado-pequeno",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/plato-cuadrado-pequeno1",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/-copas-de-champagne",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/-jarras-de-agua",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/charoles",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/decanter",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/cubiertos-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/tapete-rojo-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/mesa-cilindro-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/letras-iluminadas",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/pista-led-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/torta-en-pastillaje-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/plan-romantico-",
+      "destination": "/servicios"
+    },
+    {
+      "source": "/fuente-de-chocolatealquiler-y-montaje",
+      "destination": "/servicios"
+    }
   ],
   "headers": [
     {

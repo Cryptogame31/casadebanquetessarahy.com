@@ -74,17 +74,38 @@
           <span class="block text-[10px] tracking-widest text-zinc-400 uppercase">Medellín</span>
         </div>
       </a>
-      <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-zinc-300">
+      <nav class="hidden lg:flex items-center gap-6 text-sm font-medium text-zinc-300">
         <a href="index.html" class="hover:text-gold-400 transition-colors">Inicio</a>
         <a href="bodas.html" class="text-gold-400 font-bold">Bodas</a>
         <a href="quinces.html" class="hover:text-gold-400 transition-colors">Quinces</a>
-        <a href="salones.html" class="hover:text-gold-400 transition-colors">Salones & Fincas</a>
-        <a href="servicios.html" class="hover:text-gold-400 transition-colors">Servicios</a>
+        <a href="salones.html" class="hover:text-gold-400 transition-colors">Salones &amp; Fincas</a>
+        <a href="servicios.html" class="hover:text-gold-400 transition-colors flex items-center gap-1">
+          <span>Servicios</span>
+          <span class="px-1.5 py-0.5 rounded-full bg-gold-500/20 text-gold-300 text-[10px] font-bold">118</span>
+        </a>
+        <a href="index.html#galerias" class="hover:text-gold-400 transition-colors">Galerías</a>
         <a href="index.html#visitas" class="hover:text-gold-400 transition-colors">Visitas Prado</a>
       </nav>
-      <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" onclick="window.triggerSarahyConfetti && window.triggerSarahyConfetti()" class="px-5 py-2.5 rounded-xl bg-gold-gradient text-black font-bold text-xs uppercase tracking-wider shadow-glow-gold hover:scale-105 transition-all">
-        Cotizador Oficial ↗
-      </a>
+      <div class="flex items-center gap-2.5">
+        <button type="button" onclick="toggleSearchModal(true)" aria-label="Buscar entre 118 subpáginas" class="p-2.5 rounded-xl bg-white/5 border border-white/10 hover:border-gold-500/50 text-zinc-300 hover:text-gold-400 transition-all">
+          <i data-lucide="search" class="w-4 h-4"></i>
+        </button>
+        <a href="https://app.casadebanquetessarahy.com/" target="_blank" rel="noopener" onclick="window.triggerSarahyConfetti && window.triggerSarahyConfetti()" class="hidden sm:inline-flex px-5 py-2.5 rounded-xl bg-gold-gradient text-black font-bold text-xs uppercase tracking-wider shadow-glow-gold hover:scale-105 transition-all">
+          Cotizador Oficial ↗
+        </a>
+        <button type="button" onclick="toggleMobileMenu()" aria-label="Abrir menú" class="lg:hidden p-2 rounded-xl bg-white/5 border border-white/10 text-zinc-300">
+          <i data-lucide="menu" class="w-5 h-5"></i>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden lg:hidden glass-panel border-t border-white/10 px-6 py-5 flex flex-col gap-3 text-sm">
+      <a href="index.html" class="text-zinc-200 hover:text-gold-400">Inicio</a>
+      <a href="bodas.html" class="text-gold-400 font-bold">💍 Bodas de Ensueño</a>
+      <a href="quinces.html" class="text-zinc-200 hover:text-gold-400">👑 Quince Años Élite</a>
+      <a href="salones.html" class="text-zinc-200 hover:text-gold-400">🏰 Sedes &amp; Fincas</a>
+      <a href="servicios.html" class="text-zinc-200 hover:text-gold-400">✨ Todos los Servicios &amp; Subpáginas (118)</a>
+      <a href="index.html#galerias" class="text-zinc-300 hover:text-gold-400">🎬 Galerías &amp; Reels</a>
+      <button type="button" onclick="toggleMobileMenu(); toggleSearchModal(true)" class="text-left text-gold-300 font-semibold">🔍 Buscar entre 118 Subpáginas</button>
     </div>
   </header>
 
@@ -187,6 +208,7 @@
       </div>
     </div>
   </footer>
+  <script src="assets/js/sarahy-catalog.js"></script>
   <script src="assets/js/sarahy-gallery.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
